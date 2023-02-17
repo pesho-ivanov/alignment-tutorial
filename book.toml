@@ -1,0 +1,6 @@
+[book]
+authors = ["Pesho Ivanov"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Sequence alignment tutorial"
