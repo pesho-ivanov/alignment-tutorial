@@ -1,0 +1,6 @@
+# Types
+
+Alignment types
+
+[//]: # (Comment)
+
