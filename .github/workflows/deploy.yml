@@ -10,6 +10,9 @@ jobs:
   build:
     name: Build, Test and Deploy
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # To push a branch 
+      pull-requests: write  # To create a PR from that branch
     steps:
       - uses: actions/checkout@v2
       - uses: actions-rs/toolchain@v1
