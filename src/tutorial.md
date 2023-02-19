@@ -13,7 +13,6 @@ Inteactive coding [DataCamp](https://cdn.datacamp.com/dcl-react-prod/index.html)
 	</code>
 	<code data-type="solution">
 		a <- 5
-
 		print(a)
 	</code>
 	<code data-type="sct">
