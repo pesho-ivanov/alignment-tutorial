@@ -23,7 +23,7 @@ jobs:
         mdbook build
         git worktree add gh-pages
         git config user.name "Deploy from CI"
-        git config user.email "ivanov+gh@pesho.info"
+        git config user.email "ivanov@pesho.info"
         cd gh-pages
         # Delete the ref to avoid keeping history.
         git update-ref -d refs/heads/gh-pages
