@@ -8,5 +8,12 @@ title = "Sequence alignment tutorial"
 [preprocessor.bib]
 bibliography = "biblio.bib"
 
+[output.html]
+default-theme = "rust"
+mathjax-support = true
+git-repository-url = "https://github.com/pesho-ivanov/alignment-tutorial"
+edit-url-template = "https://github.com/pesho-ivanov/alignment-tutorial/edit/main/{path}"
+
 [output.html.fold]
 enable = true
+level = 0         # the depth to start folding
