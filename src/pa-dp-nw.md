@@ -1,5 +1,6 @@
 # Global alignment: Needleman-Wunsch algorithm (1970)
 
+
 \\( \int x dx = \frac{x^2}{2} + C \\)
 
 ```rust
