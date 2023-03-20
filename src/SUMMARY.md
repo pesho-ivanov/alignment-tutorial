@@ -1,6 +1,6 @@
 # Summary
 
-- [Exact pairwise alignment]()
+- [Pairwise alignment](pa.md)
     - [Problem]()
         - [Global alignment, graphs, shortest paths]()
         - [Data: technical and biological variation]()
