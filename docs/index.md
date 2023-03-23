@@ -1,4 +1,4 @@
-# Summary
+# Sequence alignment tutorial
 
 - [Pairwise alignment]()
     - [Problem](pa-problem.md)
