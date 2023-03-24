@@ -7,7 +7,6 @@
 > (1954)](https://www.semanticscholar.org/paper/On-the-Theory-of-Dynamic-Programming.-Bellman/dc9047917d1ceb3805d954c73899ddd2d40dd5eb)
 
 DP [@bellman1954theory]
-
 \bibliography
 
 TODO: picture of exponentially many overlapping alignment subproblems
