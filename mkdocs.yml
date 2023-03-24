@@ -27,8 +27,14 @@ extra:
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/peshotrie
 
+plugins:
+  - search
+  - bibtex:
+      bib_file: "biblio.bib"
+
 markdown_extensions:
   - smarty
+  - footnotes
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.highlight:
@@ -38,7 +44,6 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
 
 extra_javascript:
   - javascripts/mathjax.js
