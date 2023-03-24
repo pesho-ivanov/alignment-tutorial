@@ -30,7 +30,7 @@ extra:
 plugins:
   - search
   - bibtex:
-      bib_file: "biblio.bib"
+      bib_file: "docs/biblio.bib"
 
 markdown_extensions:
   - smarty
