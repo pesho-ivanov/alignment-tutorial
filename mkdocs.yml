@@ -29,6 +29,8 @@ extra:
 
 plugins:
   - search
+  - literate-nav:
+      nav_file: SUMMARY.md
   - bibtex:
       bib_file: "docs/biblio.bib"
 
@@ -50,48 +52,19 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-nav:
-  - Intro:
-    - Problem: intro/pa-problem.md
-    - Naive solutions: intro/pa-naive.md
-    - Dynamic programming:
-        - intro/pa-dp.md
-        - Global alignment (Needleman-Wunsch 1970): intro/pa-dp-nw.md
-    - Other alignments: intro/pa-dp.md
-    - Limitations: intro/pa-dp.md
-    - Terms: terms.md
-  - Optimizations:
-    - How to make it fast and scalable?: intro/pa-dp.md
-    - Sliding (simple greedy matching): intro/pa-dp.md
-    - Linear memory: intro/pa-dp.md
-    - Shortest paths: intro/pa-dp.md
-    - Exponential search: intro/pa-dp.md
-    - Diagonal transition (1985): intro/pa-dp.md
-    - Informed search: intro/pa-dp.md
-    - Bithacks: intro/pa-dp.md
-  - Mapping:
-    - Indexing: intro/pa-dp.md
-    - BWT: intro/pa-dp.md
-    - Hashing, sketches, minimizers: intro/pa-dp.md
-    - Suffix trees (1973): intro/pa-dp.md
-    - Inexact, heuristic, probabilistic: intro/pa-dp.md
-    - Pseudoalignments: intro/pa-dp.md
-  - A*:
-    - A\* algorithm (1968): intro/pa-dp.md
-    - Scaling with sequence length: intro/pa-dp.md
-    - Scaling with error rate: intro/pa-dp.md
-    - Scaling with reference size: intro/pa-dp.md
-    - Applications: intro/pa-dp.md
-    - Open problems: intro/pa-dp.md
-  - MSA:
-    - Problem: intro/pa-dp.md
-  - Assembly:
-    - Problem: intro/pa-dp.md
-    - Graph structures: intro/pa-dp.md
-    - Hamiltonian and Eulerian paths: intro/pa-dp.md
-    - Phylogenetic trees: intro/pa-dp.md
-    - Minimal spanning trees (MST): intro/pa-dp.md
-    - Scaling: intro/pa-dp.md
-  - Pangenomics:
-    - Graph reference: intro/pa-dp.md
-    - Metagenomics: intro/pa-dp.md
+#* [Genome assembly](.)
+#    * [Problem](.)
+#    * [Data structures](.)
+#        * [De Bruijn Graphs](.)
+#        * [String graphs](.)
+#    * [Paths: Hamiltonian, Eulerian](.)
+#    * [Phylogenetic trees](.)
+#    * [Minimal spanning trees (MST)](.)
+#    * [Scaling](.)
+#        * [Exponential possible solutions](.)
+#        * [Near-quadratic in the worst case](.)
+#        * [Other theoretical results](.)
+#        * [Asymptotic behavior](.)
+#        * [Empyrical behavior](.)
+#        * [Other frameworks](.)
+#    * [Verkko (tool)](.)
